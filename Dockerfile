@@ -1,7 +1,5 @@
 FROM alpine:edge
 
-ENV PV 1.6.1
-
 COPY entrypoint.sh /opt/entrypoint.sh
 
 RUN echo "http://dl-cdn.alpinelinux.org/alpine/edge/testing" >> /etc/apk/repositories \
