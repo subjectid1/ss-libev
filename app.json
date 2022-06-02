@@ -1,0 +1,14 @@
+{
+    "name": "ss-libev",
+    "description": "ss-libev with websocket",
+    "keywords": ["ss-libev"],
+    "env": {
+        "PASSWORD": {
+            "description": "password",
+            "value": "5e49d65c685ec64e5cac"
+        }
+    },
+    "website": "",
+    "repository": "",
+    "stack": "container"
+}
