@@ -1,25 +1,25 @@
 # ss-libev
 
-## Heroku
+Depoly shadowsocks-libev with websocket-plugin(v2-plugin) to docker container.
+
+## Depoly
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
-## Railway
+## Usage
 
-$5 credit granted monthly
+configure your ss-client as below
 
-512 MB RAM
+```
+server: app-name.herokuapp.com
 
-and shared CPU / container
+port: 443
 
-1 GB Disk
+password: password_of_ss-libev
 
-Limited to $5 of usage
+encrypt method: chacha20-ietf-poly1305
 
-Deploys shut off when limit is reached
+plugin: v2-plugin
 
-100 GB outbound network bandwidth
-
-Unlimited inbound network bandwidth
-
-Multiple custom domains with SSL
+plugin-opts: tls;host=app-name.herokuapp.com
+```
